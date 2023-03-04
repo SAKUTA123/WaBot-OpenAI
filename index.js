@@ -1,8 +1,8 @@
 require("http").createServer((_, res) => res.end("Berjalan Bro")).listen(8080)
 
 const sessionName = 'SCodeKu'
-const donet = 'https://sociabuzz.com/setiawan007/support'
-const owner = ['6289681210290']
+const donet = '087760550924'
+const owner = ['6287760550924']
 const { default: scodekuConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto, getContentType } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
